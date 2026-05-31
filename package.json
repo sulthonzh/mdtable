@@ -1,0 +1,40 @@
+{
+  "name": "mdtable",
+  "version": "1.0.0",
+  "description": "Markdown table toolkit — generate, format, validate, and query markdown tables from JSON/CSV/TSV input",
+  "main": "dist/index.js",
+  "bin": {
+    "mdtable": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "markdown",
+    "table",
+    "csv",
+    "json",
+    "tsv",
+    "format",
+    "validate",
+    "cli"
+  ],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/mdtable"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
