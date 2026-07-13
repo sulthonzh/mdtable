@@ -1,13 +1,12 @@
 node_modules/
-src/
-tsconfig.json
+dist/
+build/
 
 .env
 .env.*
 !.env.example
 !.env.template
-dist/
-build/
+
 __pycache__/
 .venv/
 *.egg-info/
